@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat',sans-serif;
+  overflow: hidden;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.section {
+  padding: 1.2em;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.main .img {
+  max-width: 480px;
+  flex-grow: 1;
+  width: 100%;
+}
+span {
+  font-size: 1.5rem;
+  color: #4285f4;
+  font-weight: bold;
+  padding: 0.4em;
+}
+.zoho-heading {
+  color: #adb5bd;
+  /* margin-left: 0.8em; */
+}
+.lang {
+  padding: 1.2em;
+  display: flex;
+  justify-content: flex-end;
+}
+.lang select {
+  background: none;
+  border: none;
+  outline: none;
+}
+.sign-up {
+  font-size: 2rem;
+  margin: 0;
+}
+.zoho-sub-heading {
+  color: #adb5bd;
+  font-weight: 600;
+  margin: 0;
+  padding: 2em 0 0.8em 0;
+}
+.zoho-sub-heading:last-child {
+  padding: 0.8em 0;
+}
+.zoho-sub-heading span a {
+  color: #4285f4;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.btn {
+  padding: 0.8em 1.5em;  
+  border: none;
+  outline: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  font-weight: 500;
+  width: 50%;
+  margin-bottom: 0.8rem;
+}
+.btn-create{
+  background-color: #4285f4;
+  color: white;
+}
+.btn-create:hover,.btn-create:focus{
+  background-color: #1266f1;
+}
+.btn-sign-up {
+  background-color: white;
+  color: #8d99ae;
+  border: 1px solid #adb5bd;
+}
+.btn-sign-up:hover,.btn-sign-up:focus{
+  background-color: #eaeaea;
+}
+.btn-sign-up i{
+  padding-right: 0.8em;
+}
+.email,
+.password {
+  padding: 0.8em 1.5em;
+  width: 50%;
+  border-radius: 0.3em;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #8d99ae;
+}
+.email-label,
+.password-label {
+  color: #495057;
+  font-weight: 600;
+  margin: 1.2em 0;
+}
+input[type="email"],
+input[type="password"] {
+  margin: 0.8em 0 1.5em 0;
+}
+input[type="email"]:hover,
+input[type="password"]:hover,input[type="email"]:focus,
+input[type="password"]:focus {
+  border: 2px solid #32373B;
+ 
+}
+.conditions p {
+  font-size: x-small;
+  color: #8d99ae;
+}
+.conditions a {
+  text-decoration: none;
+  color: #4285f4;
+}
+.conditions a:hover,.conditions a:focus{
+  color:#1266f1;
+}
+div.conditions {
+  margin-top: 2.5em;
+}
+.right-side {
+  margin-left: 5em;
+}
+.left-side {
+  background-color: #fbfefb;
+}
+.login-check{
+  display: flex;
+  align-items: center;
+}
